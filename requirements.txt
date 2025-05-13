@@ -1,3 +1,5 @@
+torch
+torchaudio
 whisperx
 srt
 scikit-learn
