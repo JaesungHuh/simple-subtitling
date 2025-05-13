@@ -1,0 +1,5 @@
+whisperx
+srt
+scikit-learn
+tqdm
+git+https://github.com/wenet-e2e/wespeaker.git
