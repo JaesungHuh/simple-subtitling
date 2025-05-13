@@ -1,6 +1,6 @@
 # Simple subtitling
 
-![Simple Subtitling Demo](simple-subtitle.png)
+![Simple Subtitling Demo](simple-subtitle.jpg)
 
 - This code generates subtitles for TV shows or movies, including **speech transcripts with corresponding timestamps** and **speaker IDs**, from the audio file.
 - The framework first runs [WhisperX](https://github.com/m-bain/whisperX) to produce speech transcripts with timestamps. Then, it extracts speaker embeddings at the sentence level. Finally, it applies Agglomerative Hierarchical Clustering (AHC) to group these embeddings and assign speaker IDs.
