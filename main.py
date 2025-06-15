@@ -125,7 +125,7 @@ def cluster_segments(
 ) -> List[Segment]:
     """Cluster segments by speaker embeddings."""
     if len(embeddings) < 2:
-        return [Segment(seg.start, seg.end, seg.text, "spk_1") for seg in segments]
+        return [Segment(seg.start, seg.end, seg.text, "spk_0") for seg in segments]
     clustering = AgglomerativeClustering(
         n_clusters=n_cluster,
         metric="cosine",
